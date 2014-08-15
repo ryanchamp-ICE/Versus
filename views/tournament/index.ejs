@@ -1,0 +1,16 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<ul>
+		<% viewModel.tournaments.forEach(el, index) {%>
+			<li><%= el.name %></li>
+			<ul>
+				<li><%= el.type %></li>
+				<li><%= el.gameName %></li>
+				<li><%= el.liveImage %></li>
+			</ul>
+		<% }); %>
+		</ul>
+	</body>
+</html>

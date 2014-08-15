@@ -18,6 +18,12 @@ module.exports = (function () {
                 path: './logs/',
                 level: null,
                 timestamp: false
+            },
+            challonge: {
+            	username: 'IceColdEdge',
+            	apiKey: 'HFM5cOhuJH8AZYPm0Pl5hrMVtlpJIzKL6gJzqvPs',
+            	baseUrl: 'https://api.challonge.com/v1/',
+            	fullUrl: 'https://IceColdEdge:HFM5cOhuJH8AZYPm0Pl5hrMVtlpJIzKL6gJzqvPs@api.challonge.com/v1/'
             }
     	};
 
